@@ -5,7 +5,16 @@ export default createBoard({
     name: 'App',
     Board: () => (
         <div>
-            <h1>Ghost Game</h1>
+            <div>
+                <h1>Ghost Game</h1>
+            </div>
+            <div className="name">
+                <h2>Name:</h2>
+            </div>
+            <div className="buttons">
+                <button>Create Game</button>
+                <button>Edit name</button>
+            </div>
         </div>
     ),
     environmentProps: {},

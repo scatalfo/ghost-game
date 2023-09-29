@@ -68,3 +68,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.buttons {
+  text-align: center;
+  text-decoration-line: none;
+}
+.name {
+  text-align: center;
+}
