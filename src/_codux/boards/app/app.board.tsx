@@ -3,5 +3,10 @@ import App from '../../../App';
 
 export default createBoard({
     name: 'App',
-    Board: () => <App />,
+    Board: () => (
+        <div>
+            <h1>Ghost Game</h1>
+        </div>
+    ),
+    environmentProps: {},
 });
